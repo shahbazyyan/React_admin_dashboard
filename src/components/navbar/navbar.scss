@@ -10,12 +10,14 @@
         align-items: center;
         font-weight: bold;
         gap: 10px;
+        
     }
 
     .icons {
       display: flex;
       align-items: center;
       gap: 25px;
+      cursor: pointer;
 
     .notification {
         position: relative;

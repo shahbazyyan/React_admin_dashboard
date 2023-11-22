@@ -4,7 +4,7 @@ function Navbar() {
   return (
     <div className='navbar'>
       <div className="logo">
-        <img src="logo.svg" alt="logo"/>
+        <img src="pie-chart.png" alt="logo"/>
         <span>dashbordian</span>
       </div>
       <div className="icons">
