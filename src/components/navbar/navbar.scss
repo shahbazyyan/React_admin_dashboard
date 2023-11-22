@@ -1,0 +1,53 @@
+.navbar {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .logo {
+        display: flex;
+        align-items: center;
+        font-weight: bold;
+        gap: 10px;
+    }
+
+    .icons {
+      display: flex;
+      align-items: center;
+      gap: 25px;
+
+    .notification {
+        position: relative;
+        img {
+            margin-top: 5px;
+        }
+        span {
+            background: rgb(231, 13, 13);
+            color: white;
+            width: 16px;
+            height: 16px;
+            border-radius: 50%;
+            position: absolute;
+            top: -6px;
+            right: -10px;
+            text-align: center;
+            font-size: 14px;
+            font-family: 'Courier New', Courier, monospace;
+            
+        }
+    }
+
+    .user {
+        display: flex;  
+        align-items: center;
+        gap: 10px;
+        img {
+            width: 26px;
+            height: 26px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+    }
+  }
+}
