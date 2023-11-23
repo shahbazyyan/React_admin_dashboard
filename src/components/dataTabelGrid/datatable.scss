@@ -1,0 +1,36 @@
+.datatabel {
+    .data-grid {
+        background: #a2acbe;
+        font-weight: 600;
+        padding: 22px;
+
+        .MuiDataGrid-toolbar {
+            background-color: #f0f0f0;
+            color: #333;
+            gap: 10px;
+          }
+          .MuiButton-root {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            color: #000;
+            font-weight: 600;
+          }
+          img {
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            object-fit: cover;
+          }
+          .action {
+            display: flex;
+            gap: 16px;
+
+            img {
+                width: 20px;
+                height: 20px;
+                cursor: pointer;
+            }
+          }
+    }
+}
