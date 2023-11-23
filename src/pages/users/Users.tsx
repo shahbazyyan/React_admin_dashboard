@@ -1,7 +1,9 @@
+import Add from '../../components/add/Add';
 import Datatabel from '../../components/dataTabelGrid/Datatabel';
 import { userRows } from '../../data';
 import './users.scss';
 import {GridColDef } from '@mui/x-data-grid';
+import { useState } from 'react';
 
 
 const columns: GridColDef[] = [
@@ -55,13 +57,17 @@ const columns: GridColDef[] = [
 
 
 function Users() {
+
+  const [open, setOpen] = useState(false);
+
   return (
     <div className="users">
         <div className="info">
         <h1>Users</h1>
-        <button>Add new user</button>
+        <button onClick={() => setOpen(true)}>Add new user</button>
         </div>
         <Datatabel slug="users" columns={columns} rows={userRows} /> 
+        {open && <Add slug='user' columns={columns} setOpen={setOpen}/>}
     </div>
   )
 }
