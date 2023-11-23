@@ -191,49 +191,51 @@ export const menu = [
     title: "Total Products",
     number: "238",
     dataKey: "products",
-    percentage: 21,
+    percentage: 47,
     chartData: [
-      { name: "Sun", products: 400 },
-      { name: "Mon", products: 600 },
-      { name: "Tue", products: 500 },
-      { name: "Wed", products: 700 },
-      { name: "Thu", products: 400 },
-      { name: "Fri", products: 500 },
-      { name: "Sat", products: 450 },
+      { name: "Sun", products: 1261 },
+      { name: "Mon", products: 986 },
+      { name: "Tue", products: 569 },
+      { name: "Wed", products: 1589 },
+      { name: "Thu", products: 1658 },
+      { name: "Fri", products: 1120 },
+      { name: "Sat", products: 987 },
     ],
   };
+
   export const chartBoxRevenue = {
     color: "teal",
     icon: "/revenueIcon.svg",
     title: "Total Revenue",
     number: "$56.432",
     dataKey: "revenue",
-    percentage: -12,
+    percentage: -7,
     chartData: [
-      { name: "Sun", revenue: 400 },
-      { name: "Mon", revenue: 600 },
-      { name: "Tue", revenue: 500 },
-      { name: "Wed", revenue: 700 },
-      { name: "Thu", revenue: 400 },
-      { name: "Fri", revenue: 500 },
-      { name: "Sat", revenue: 450 },
+      { name: "Sun", revenue: 5620 },
+      { name: "Mon", revenue: 7856 },
+      { name: "Tue", revenue: 4560 },
+      { name: "Wed", revenue: 4520 },
+      { name: "Thu", revenue: 3980 },
+      { name: "Fri", revenue: 5123 },
+      { name: "Sat", revenue: 3410 },
     ],
   };
+
   export const chartBoxConversion = {
     color: "gold",
     icon: "/conversionIcon.svg",
     title: "Total Ratio",
     number: "2.6",
     dataKey: "ratio",
-    percentage: 12,
+    percentage: 18,
     chartData: [
-      { name: "Sun", ratio: 400 },
-      { name: "Mon", ratio: 600 },
-      { name: "Tue", ratio: 500 },
-      { name: "Wed", ratio: 700 },
-      { name: "Thu", ratio: 400 },
-      { name: "Fri", ratio: 500 },
-      { name: "Sat", ratio: 450 },
+      { name: "Sun", ratio: 40 },
+      { name: "Mon", ratio: 60 },
+      { name: "Tue", ratio: 50 },
+      { name: "Wed", ratio: 70 },
+      { name: "Thu", ratio: 60 },
+      { name: "Fri", ratio: 80 },
+      { name: "Sat", ratio: 110 },
     ],
   };
   
@@ -554,8 +556,6 @@ export const menu = [
       inStock: true,
     },
   ];
-  
-  
   
   export const singleUser = {
     id: 1,
