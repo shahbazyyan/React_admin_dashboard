@@ -53,7 +53,7 @@ const columns: GridColDef[] = [
   },
 ];
 
-function Product() {
+function Products() {
 
     const [open, setOpen] = useState(false);
 
@@ -69,4 +69,4 @@ function Product() {
     )
 }
 
-export default Product
+export default Products

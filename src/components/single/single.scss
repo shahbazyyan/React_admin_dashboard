@@ -1,0 +1,99 @@
+.single {
+  display: flex;
+
+  .view {
+    flex: 1;
+
+    .info {
+      .topinfo {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+
+        img {
+          width: 100px;
+          height: 100px;
+          border-radius: 22px;
+          object-fit: cover;
+        }
+
+        h1 {
+          font-weight: 600;
+        }
+      }
+
+      .details {
+        font-size: 20px;
+ 
+        .item {
+          margin-bottom: 10px;
+          display: block;
+          margin-bottom: 15px;
+
+          .itemTitle {
+            font-weight: 700;
+            margin-right: 5px;
+            text-transform: capitalize;
+          }
+
+          .itemValue {
+            display: inline-block;
+          }
+        }
+      }
+
+    }
+
+    hr {
+      width: 90%;
+      height: 0;
+      border: .4px solid gray;
+    }
+
+    .chart {
+      margin-top: 55px;
+      width: 80%;
+      height: 400px;
+    }
+  }
+
+  .activities {
+    flex: 1;
+
+    h2{
+      margin-bottom: 22px;
+    }
+
+    ul {
+      li{
+        list-style-type: none;
+        position: relative;
+        width: 1px;
+        padding-top: 55px;
+        background-color: darkorange;
+
+        &::after {
+          content: "";
+          position: absolute;
+          width: 10px;
+          height: 10px;
+          left: 50%;
+          bottom: 0;
+          border-radius: 50%;
+          background-color: darkorange;
+          transform: translateX(-50%);
+        }
+        div{
+          min-width: 480px;
+          padding: 15px;
+          background-color: #f45b6810;
+
+          p{
+            margin-bottom: 15px;
+          }
+        }
+      }
+    }
+
+  }
+}

@@ -1,12 +1,14 @@
 import Home from "./pages/home/Home";
 import { createBrowserRouter, RouterProvider, Outlet} from "react-router-dom";
 import Users from "./pages/users/Users";
-import Product from "./pages/products/Product";
+import Products from "./pages/products/Products";
 import Navbar from "./components/navbar/Navbar";
 import Footer from "./components/footer/Footer";
 import Menu from "./components/menu/Menu";
 import './styles/global.scss';
 import Login from "./components/login/Login";
+import User from "./pages/user/User";
+import Product from "./pages/product/Product";
 
 function App() {
 
@@ -42,8 +44,16 @@ function App() {
         },
         {
           path: "/products",
-          element: <Product/>
+          element: <Products/>
         },
+        {
+          path: "/users/:id",
+          element: <User/>
+        },
+        {
+          path: "/products/:id",
+          element: <Product/>
+        }
       ]
     },
     {
