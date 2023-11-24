@@ -9,6 +9,8 @@ import './styles/global.scss';
 import Login from "./components/login/Login";
 import User from "./pages/user/User";
 import Product from "./pages/product/Product";
+import Calendar from "./pages/calendar/Calendar";
+import Calendars from "./components/calendars/Calendars";
 
 function App() {
 
@@ -53,6 +55,10 @@ function App() {
         {
           path: "/products/:id",
           element: <Product/>
+        },
+        {
+          path: "/calendar",
+          element: <Calendars/>
         }
       ]
     },
