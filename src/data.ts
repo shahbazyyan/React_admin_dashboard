@@ -38,13 +38,13 @@ export const menu = [
       {
         id: 3,
         title: "Orders",
-        url: "/orders",
+        url: "/inactive",
         icon: "order.svg",
       },
       {
         id: 4,
         title: "Posts",
-        url: "/posts",
+        url: "/inactive",
         icon: "post2.svg",
       },
     ],
@@ -56,19 +56,19 @@ export const menu = [
       {
         id: 1,
         title: "Elements",
-        url: "/",
+        url: "/inactive",
         icon: "element.svg",
       },
       {
         id: 2,
         title: "Notes",
-        url: "/",
+        url: "/notes",
         icon: "note.svg",
       },
       {
         id: 3,
         title: "Forms",
-        url: "/",
+        url: "/inactive",
         icon: "form.svg",
       },
       {
@@ -86,13 +86,13 @@ export const menu = [
       {
         id: 1,
         title: "Settings",
-        url: "/",
+        url: "/inactive",
         icon: "setting.svg",
       },
       {
         id: 2,
         title: "Backups",
-        url: "/",
+        url: "/inactive",
         icon: "backup.svg",
       },
     ],
@@ -104,13 +104,13 @@ export const menu = [
       {
         id: 1,
         title: "Charts",
-        url: "/",
+        url: "/charts",
         icon: "chart.svg",
       },
       {
         id: 2,
         title: "Logs",
-        url: "/",
+        url: "/inactive",
         icon: "log.svg",
       },
     ],
