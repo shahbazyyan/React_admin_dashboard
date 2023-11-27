@@ -11,6 +11,7 @@ import User from "./pages/user/User";
 import Product from "./pages/product/Product";
 import Calendar from "./pages/calendar/Calendar";
 import Posts from "./pages/inactive/Inactive";
+import Kanban from "./pages/kanban/Kanban";
 
 function App() {
 

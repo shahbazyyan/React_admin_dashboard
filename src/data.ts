@@ -62,7 +62,7 @@ export const menu = [
       {
         id: 2,
         title: "Notes",
-        url: "/notes",
+        url: "/inactive",
         icon: "note.svg",
       },
       {
@@ -104,7 +104,7 @@ export const menu = [
       {
         id: 1,
         title: "Charts",
-        url: "/charts",
+        url: "/inactive",
         icon: "chart.svg",
       },
       {
@@ -316,10 +316,10 @@ export const barChartBoxVisit = {
 export const userRows = [
   {
     id: 1,
-    img: "https://images.pexels.com/photos/8405873/pexels-photo-8405873.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
-    lastName: "Hubbard",
-    firstName: "Eula",
-    email: "kewez@gmail.com",
+    img: "https://www.festival-deauville.com/wp-content/uploads/2023/08/emilia-clarke-robert-ascroft.jpg",
+    lastName: "Emilia",
+    firstName: "Clarke",
+    email: "clarke@gmail.com",
     phone: "123 456 789",
     createdAt: "01.02.2023",
     verified: true,
@@ -862,3 +862,5 @@ export const INITIAL_EVENTS = [
 export function createEventId() {
   return String(eventGuid++)
 };
+
+
