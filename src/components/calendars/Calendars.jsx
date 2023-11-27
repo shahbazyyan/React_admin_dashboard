@@ -61,6 +61,6 @@ function Calendars() {
            
     </div>
   )
-}
+};
 
 export default Calendars
