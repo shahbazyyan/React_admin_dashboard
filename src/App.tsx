@@ -9,8 +9,8 @@ import './styles/global.scss';
 import Login from "./components/login/Login";
 import User from "./pages/user/User";
 import Product from "./pages/product/Product";
-import Calendar from "./pages/calendar/Calendar";
 import Posts from "./pages/inactive/Inactive";
+import Calendar from "./pages/calendar/Calendar";
 
 function App() {
 

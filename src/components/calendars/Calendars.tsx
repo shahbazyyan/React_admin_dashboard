@@ -3,34 +3,12 @@ import FullCalendar from '@fullcalendar/react';
 import dayGridPlugin from '@fullcalendar/daygrid';
 import timeGridPlugin from '@fullcalendar/timegrid';
 import interactionPlugin from '@fullcalendar/interaction';
-import useCalendar from '../../calendar';
-import { createEventId } from '../../calendar';
 
 
 function Calendars() {
 
-  const {currentEvents, setCurrentEvents} = useCalendar();
 
-  async function handleEvents (e) {
-     await Promise.resolve(setCurrentEvents(e))
-  };
-
-  function handleSelect (info) {
-    let title = prompt("Please enter title for the event");
-    let calendarAPI = info.view.calendar
-
-    calendarAPI.unselect();
-
-    if(title) {
-      calendarAPI.addEvent({
-        id: createEventId(),
-        title,
-        start: info.start,
-        end: info.end,
-        allDay: info.allDay
-      });
-    };
-  };
+  
 
   return (
     <div className='calendar'>
@@ -54,9 +32,6 @@ function Calendars() {
                     dayMaxEvents={true}
                     weekends={true}
                     nowIndicator={true}
-                    initialEvents={currentEvents}
-                    eventsSet={handleEvents}
-                    select={handleSelect}
                 />
            
     </div>
