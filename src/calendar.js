@@ -1,8 +1,8 @@
 import { INITIAL_EVENTS } from './data';
 
-const useCalendar = ((set: any) => ({
+const useCalendar = ((set) => ({
     currentEvents: INITIAL_EVENTS,
-    setCurrentEvents: (events: unknown) => set({currentEvents: events})
+    setCurrentEvents: (events) => set({currentEvents: events})
 }));
 
 export default useCalendar;

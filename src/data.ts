@@ -120,9 +120,9 @@ export const menu = [
 export const topDealUsers = [
   {
     id: 1,
-    img: "https://images.pexels.com/photos/8405873/pexels-photo-8405873.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
-    username: "Elva McDonald",
-    email: "elva@gmail.com",
+    img: "https://media.glamourmagazine.co.uk/photos/6421b1197cb041c1bc091de3/1:1/w_1280,h_1280,c_limit/EMILIA%20CLARKE%20SKIN%2027032023.jpg",
+    username: "Emili Clarke",
+    email: "clarke@gmail.com",
     amount: "3.668",
   },
   {
