@@ -4,7 +4,7 @@ import dayGridPlugin from '@fullcalendar/daygrid';
 import timeGridPlugin from '@fullcalendar/timegrid';
 import interactionPlugin from '@fullcalendar/interaction';
 import useCalendar from '../../calendar';
-import { createEventId } from '../../data';
+import { createEventId } from '../../calendar';
 
 
 function Calendars() {
